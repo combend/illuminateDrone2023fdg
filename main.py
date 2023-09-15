@@ -5,7 +5,8 @@ tello.connect()
 
 tello.enable_mission_pads()
 tello.set_mission_pad_detection_direction(1)  # forward detection only  只识别前方
-
+#test
+tello.land ()
 tello.takeoff()
 
 pad = tello.get_mission_pad_id()
