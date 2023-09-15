@@ -8,7 +8,7 @@ tello.set_mission_pad_detection_direction(1)  # forward detection only  只识�
 #test
 tello.land ()
 tello.takeoff()
-
+tello.get_mission_pad_id()
 pad = tello.get_mission_pad_id()
 
 tello.go_xyz_speed_yaw_mid(225, 0, 100, 20, 0, 1, 2)
